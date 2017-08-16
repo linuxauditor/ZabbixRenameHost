@@ -1,5 +1,5 @@
 #!/bin/bash
-##Kenneth's hack to rename hosts in Zabbix to retrieved SNMP value.  August 2017##
+##Script to rename hosts in Zabbix to retrieved SNMP value.  August 2017##
 ##This is pretty dirty but it should work without needing to be touched##
 
 #Connects to Zabbix backend, queries for all Hosts that have a name in Zabbix starting with 10.%  This output is piped to read line
